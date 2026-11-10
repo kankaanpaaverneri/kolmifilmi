@@ -6,7 +6,10 @@
 		<meta http-equiv="X-UA-Compatible" content="ie-edge">
 		<title>Kolmifilmi</title>
 		<link rel="stylesheet" href="style.css">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="public/2023-01-19_kolmifilmi_logo_no_text_white_icon.svg" type="image/x-icon">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -14,9 +17,266 @@
 			</nav>
 		</header>
 		<main>
-			<h1>Kolmifilmi</h1>
+			<img id="logo" src="public/2023-01-19_kolmifilmi_logo_no_text_white_icon.svg"/>
+			<video
+				src="public/2026-11-10_kolmifilmi_showreel_web.mp4"
+				preload="none"
+				poster="video_thumbnail.jpg"
+				playsinline
+				type="video/mp4"
+				controls
+
+			></video>
+			<div class="presentation">
+			<h1>Meistä</h1>
+			<h2>
+				Toteutamme lyhyttä fiktiota, dokumentteja, musiikkivideoita sekä keikkataltiointeja. Yhdistämme luovan kerronnan ja vahvan tuotannollisen osaamisen tarinoiksi, jotka jäävät elämään. Oma kalustomme tukenamme viemme projektit luotettavasti maaliin tiiviissä yhteistyössä tilaajan kanssa.
+			</h2>
+			</div>
+			<div class="productions">
+				<div class="production">
+					<img src="public/HEIJ5.jpg"/>
+					<div class="production-title hidden">
+						<h4>Heijastuksia</h4>
+						<h5>2026</h5>
+					</div>
+					<div id="modal1" class="hidden modal-container">
+						<div class="modal">
+							<h1>Heijastuksia</h1>
+							<h2>2026</h2>
+							<div class="modal-images">
+								<img src="public/HEIJ1.jpg"/>
+								<img src="public/HEIJ2.jpg"/>
+								<img src="public/HEIJ3.jpg"/>
+							</div>
+							<div class="modal-images">
+								<img src="public/HEIJ4.jpg"/>
+								<img src="public/HEIJ5.jpg"/>
+								<img src="public/HEIJ6.jpg"/>
+							</div>
+							<div class="description">
+								<p>Dokumentti, 9 minuuttia</p>
+								<p>Käsikirjoitus ja ohjaus: Miisa Korkiamäki</p>
+								<p>Tuotanto: Sebastian Kara</p>
+								<p>Heijastuksia on kokeellinen dokumenttielokuva, jossa filminegatiivit on kerrostettu lävitse vuosikymmenten.</p>
+							</div>
+							<button class="close-modal">Takaisin</button>
+						</div>
+					</div>
+				</div>
+				<div class="production">
+					<img src="public/HAUS07.jpg"/>
+					<div class="production-title hidden">
+						<h4>Ystävyysottelu</h4>
+						<h5>2025</h5>
+					</div>
+					<div id="modal2" class="hidden modal-container">
+						<div class="modal">
+							<h1>Ystävyysottelu</h1>
+							<h2>2025</h2>
+							<div class="modal-images">
+								<img src="public/HAUS07.jpg"/>
+								<img src="public/HAUS10.jpg"/>
+								<img src="public/HAUS13.jpg"/>
+							</div>
+							<div class="modal-images">
+								<img src="public/HAUS18.jpg"/>
+								<img src="public/HAUS20.jpg"/>
+								<img src="public/HAUS23.jpg"/>
+							</div>
+							<div class="description">
+								<p>Keikkataltiointi, x minuuttia</p>
+								<p>Tilaaja: Tomi Haustola</p>
+								<p>Ohjaus: Valtti Hyvärinen</p>
+								<p>Tuotanto: Sebastian Kara</p>
+								<p>Lavalta ja yleisöstä käsin taltioitu dynaaminen stand up -ilta, jossa koomikko Tomi Haustola kutsuu lavalle kolleegoitaan ja ystäviään.</p>
+							</div>
+							<button class="close-modal">Takaisin</button>
+						</div>
+					</div>
+				</div>
+				<div class="production">
+					<img src="public/PHYS03.jpg"/>
+					<div class="production-title hidden">
+						<h4>Let's Get Physical</h4>
+						<h5>2024</h5>
+					</div>
+					<div id="modal3" class="hidden modal-container">
+						<div class="modal">
+							<h1>Let's Get Physical</h1>
+							<h2>2024</h2>
+							<div class="modal-images">
+								<img src="public/PHYS03.jpg"/>
+								<img src="public/PHYS05.jpg"/>
+								<img src="public/PHYS06.jpg"/>
+							</div>
+							<div class="modal-images">
+								<img src="public/PHYS08.jpg"/>
+								<img src="public/PHYS10.jpg"/>
+								<img src="public/PHYS12.jpg"/>
+							</div>
+							<div class="description">
+								<p>Musiikkivideo, 3 minuuttia</p>
+								<p>Tilaaja: Antti Akonniemi</p>
+								<p>Ohjaus: Valtti Hyvärinen</p>
+								<p>Tuotanto: Sebastian Kara</p>
+								<p>Koomikoiden täytteinen musiikkivideo kuntosalin siivoojan päiväunesta.</p>
+							</div>
+							<button class="close-modal">Takaisin</button>
+						</div>
+					</div>
+				</div>
+				<div class="production">
+					<img src="public/WR6.jpg"/>
+					<div class="production-title hidden">
+						<h4>The Writer</h4>
+						<h5>2025</h5>
+					</div>
+					<div id="modal4" class="hidden modal-container">
+						<div class="modal">
+							<h1>The Writer</h1>
+							<h2>2025</h2>
+							<div class="modal-images">
+								<img src="public/WR6.jpg"/>
+								<img src="public/WR8.jpg"/>
+								<img src="public/WR9.jpg"/>
+							</div>
+							<div class="modal-images">
+								<img src="public/WR15.jpg"/>
+								<img src="public/WR20.jpg"/>
+								<img src="public/WR25.jpg"/>
+							</div>
+							<div class="description">
+								<p>Lyhytelokuva, 36 minuuttia</p>
+								<p>Käsikirjoitus ja ohjaus: Darren Black</p>
+								<p>DOP: Valtti Hyvärinen</p>
+								<p>Tuotanto: Kolmifilmi & Aura Actors</p>
+								<p>Rooleissa</p>
+								<li>Matti Mustonen</li>
+								<li>Ilta Louhivuori</li>
+								<li>Riikka Korhonen</li>
+								<li>Andrea Puscasu</li>
+								<li>Kheba Touray</li>
+								<li>Salvador Esparza</li>
+								<li>Juho Hankela</li>
+								<li>Asta Sveholm</li>
+								<li>Carola Hakola</li>
+								<li>Heini Ryynänen</li>
+								<p>Joukko intohimoisia taiteilijoita kokoontuu viikoksi kirjoittamisretriitille, jossa heikommat karsitaan pois.</p>
+							</div>
+							<button class="close-modal">Takaisin</button>
+						</div>
+					</div>
+				</div>
+				<div class="production">
+					<img src="public/VK01.jpg"/>
+					<div class="production-title hidden">
+						<h4>Meidän valtakunta</h4>
+						<h5>2023</h5>
+					</div>
+					<div id="modal5" class="hidden modal-container">
+						<div class="modal">
+							<h1>Meidän Valtakunta</h1>
+							<h2>2024</h2>
+							<div class="modal-images">
+								<img src="public/VK01.jpg"/>
+								<img src="public/VK07.jpg"/>
+								<img src="public/VK08.jpg"/>
+							</div>
+							<div class="modal-images">
+								<img src="public/VK09.jpg"/>
+								<img src="public/VK10.jpg"/>
+								<img src="public/VK12.jpg"/>
+							</div>
+							<div class="description">
+								<p>Lyhytelokuva, 7 minuuttia</p>
+								<p>Käsikirjoitus ja ohjaus: Valtti Hyvärinen</p>
+								<p>DOP: Pyry Rantanen</p>
+								<p>Tuotanto: Sebastian Kara</p>
+								<p>Iltasatujen ja fantasian kuvastolla leikittelevä tarina aikuisten onnelisista lopuista.</p>
+								<p>Rooleissa: Milja Taipale, Olavi Angervo, Satu Laine</p>
+							</div>
+							<button class="close-modal">Takaisin</button>
+						</div>
+					</div>
+				</div>
+				<div class="production">
+					<img src="public/TR1.jpg"/>
+					<div class="production-title hidden">
+						<h4>Taivaanranta</h4>
+						<h5>2022</h5>
+					</div>
+					<div id="modal6" class="hidden modal-container">
+						<div class="modal">
+							<h1>Taivaanranta</h1>
+							<h2>2022</h2>
+							<div class="modal-images">
+								<img src="public/TR1.jpg"/>
+								<img src="public/TR2.jpg"/>
+								<img src="public/TR7.jpg"/>
+							</div>
+							<div class="modal-images">
+								<img src="public/TR13.jpg"/>
+								<img src="public/TR14.jpg"/>
+								<img src="public/TR19.jpg"/>
+							</div>
+							<div class="description">
+								<p>Lyhytelokuva, 22 minuuttia</p>
+								<p>Käsikirjoitus ja ohjaus: Valtti Hyvärinen</p>
+								<p>DOP: Jan Viljanen</p>
+								<p>Tuotanto: Sebastian Kara, Valtti Hyvärinen</p>
+								<p>Tulevaisuuden kahtiajakautuneessa kaupungissa korruptoitunut hallitus ottaa katulapsen suojiinsa.</p>
+								<p>Rooleissa: Mohamed El-Waber, Osla Räisänen, Adela Ogunbor, Keba Touray, Kalisto Amudeng, Aki Kivelä</p>
+							</div>
+							<button class="close-modal">Takaisin</button>
+						</div>
+				</div>
+				
+			</div>
 		</main>
-		<footer></footer>
+		<footer>
+			<div class="footer-header">
+				<h1>Tiimimme</h1>
+			</div>
+			<div class="footer-content">
+				<div class="profile">
+					<img loading="lazy" src="public/2026-11-08_sebastian_kara.jpg"/>
+					<p>Sebastian Kara</p>
+					<p>sebastian.kara@kolmifilmi.fi</p>
+					<p>Laskutus & Asiakkuudet</p>
+				</div>
+				<div class="profile">
+					<img loading="lazy" src="public/2026-11-08_valtti_hyvarinen.jpg"/>
+					<p>Valtti Hyvärinen</p>
+					<p>valtti.hyvarinen@kolmifilmi.fi</p>
+					<p>Luova johtaja</p>
+				</div>
+				<div class="profile">
+					<img loading="lazy" src="public/2026-11-08_verneri_kankaanpaa.jpg"/>
+					<p>Verneri Kankaanpää</p>
+					<p>Jälkituotannon koordinointi &</p>
+					<p>Tekninen tuki</p>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="contact">
+					<h1>Ota yhteyttä</h1>
+					<p>Kolmifilmi Oy</p>
+					<p>Tulvaniitynpolku 5B</p>
+					<p>Y-tunnus: 3321675-6</p>
+					<p>info@kolmifilmi.fi</p>
+				</div>
+				<div class="contact-horizontal">
+					<a target="_blank" href="https://www.instagram.com/kolmifilmi/">
+					<img src="public/2026-11-05_instagram_glyph_white.png"/>
+					</a>
+					<a target="_blank" href="https://www.youtube.com/@kolmifilmi">
+					<img src="public/2026-11-05_yt_icon_mono_dark.png"/>
+					</a>
+				</div>
+
+			</div>
+		</footer>
 		<script src="script.js"></script>
 	</body>
 </html>

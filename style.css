@@ -22,16 +22,23 @@ h4, h5 {
 	margin: 5% 0;
 	background: none;
 }
+nav {
+	background-color: none;
+}
+
 
 #logo {
-	width: 300px;
-	margin: 10% 0;
+	background: none;
+	position: absolute;
+	width: 50px;
+	margin: 2%;
 }
 
 
 header {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	background: none;
 }
 
 main {
@@ -52,6 +59,10 @@ main video {
 main .presentation {
 	margin: 10% 5%;
 	text-align: center;
+}
+
+main .presentation h1 {
+	margin: 2% 0;
 }
 
 main .productions {
@@ -76,6 +87,12 @@ main .productions .production .production-title{
 	top: 30%;
 	text-align: center;
 	z-index: 9998;
+	background: none;
+	text-shadow: 1px 1px black;
+}
+
+.modal-production-title {
+	padding-bottom: 5%;
 	background: none;
 }
 
@@ -102,11 +119,14 @@ main .modal-container .modal .modal-images {
 
 
 main .modal-container .modal .description {
-	margin: 0 2%;
+	margin: 2% 2%;
 	text-decoration: none;
 	list-style: none;
 }
 
+.description-text {
+	margin: 3% 0;
+}
 
 main .modal-container .modal button {
 	margin: 1% 0;
